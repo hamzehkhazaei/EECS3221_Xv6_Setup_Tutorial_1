@@ -60,5 +60,5 @@ Use `break <address>` to set a breakpoint and type `continue` to run until the b
 $ brew install riscv64-elf-gdb
 ```
 
-Good luck,
+
 *Instructor: Hamzeh Khazaei*

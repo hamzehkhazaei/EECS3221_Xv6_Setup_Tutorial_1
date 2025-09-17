@@ -55,5 +55,10 @@ $ gdb-multiarch -q -iex "set auto-load safe-path ."
 ```
 Use `break <address>` to set a breakpoint and type `continue` to run until the breakpoint.
 
+**Note:** For MacOS users, if `gdb-multiarch` doesn't exist, try `riscv64-unknown-elf-gdb`. If no gdb exists on your Mac, run:
+```
+$ brew install riscv64-elf-gdb
+```
 
+Good luck,
 *Instructor: Hamzeh Khazaei*

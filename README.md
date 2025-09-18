@@ -49,7 +49,7 @@ To do so, first start Xv6 in debug mode:
 $ make
 $ make qemu-gdb
 ```
-Now open another terminal, or another tab, at the exaxt same folder of your Xv6 source code, i.e., `xv6-riscv` and run:
+Now open another terminal, or another tab, in the same folder of your Xv6 source code, i.e., `xv6-riscv` and run:
 ```
 $ gdb-multiarch -q -iex "set auto-load safe-path ."
 ```

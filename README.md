@@ -51,7 +51,7 @@ $ make qemu-gdb
 ```
 Now open another terminal, or another tab, in the same folder of your Xv6 source code, i.e., `xv6-riscv` and run:
 ```
-$ gdb-multiarch -q -iex "set auto-load safe-path ."
+$ riscv64-unknown-elf-gdb -q -iex "set auto-load safe-path ."
 ```
 Use `break <address>` to set a breakpoint and type `continue` to run until the breakpoint.
 

@@ -37,8 +37,9 @@ $
 ```
 Use the `ls` command to see the user programs on `xv6`. Try to run at least one of them. 
 
-To terminate Xv6 and exit the emulator, press `Ctrl+a`, release, and then press `x`.
-You are now finished with the Xv6 setup and may go ahead with your project.
+**Note:**
+```To terminate Xv6 and exit the emulator, press `Ctrl+a`, release, and then press `x`.
+You are now finished with the Xv6 setup and may go ahead with your project.```
 
 ## 🚀 Running Xv6 in Debug Mode
 Sometimes we need to bring up Xv6 in debug mode so that we can trace the execution line by line to find the root cause of an error or for other purposes.

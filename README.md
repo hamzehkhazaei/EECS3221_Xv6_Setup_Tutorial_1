@@ -32,8 +32,6 @@ Afterwards, you should see something like this:
 ...
 xv6 kernel is booting
 
-hart 1 starting
-hart 2 starting
 init: starting sh
 $
 ```
